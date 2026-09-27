@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Model cache & logs
+catboost_info/
+wandb/
+mlruns/
+*.log
+
+# Environment & OS
+.env
+.venv
+env/
+venv/
+ENV/
+.DS_Store
+Thumbs.db
